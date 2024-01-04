@@ -84,7 +84,7 @@ namespace MaharlikaAirline
                Console.WriteLine(p);
             Console.WriteLine();
 
-            List<Passenger> pM = b.GetAllEconomyPassengers();
+            /*List<Passenger> pM = b.GetAllEconomyPassengers();
             Console.WriteLine("Economy Passengers:");
             foreach (Passenger p in pM)
                 Console.WriteLine(p);
@@ -95,7 +95,7 @@ namespace MaharlikaAirline
             Airplane d = new Airplane("VIP143");
             d.setBusinessClassCapacity(12);
             d.SetEconomyCapacity(88);
-            Console.WriteLine(d);
+            Console.WriteLine(d);*/
             Console.ReadLine(); 
         }
         
